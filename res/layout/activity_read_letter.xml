@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ReadLetter"
+    android:orientation="vertical"
+    android:layout_gravity="center_vertical"
+    android:layout_centerHorizontal="true"
+    android:background="#464159">
+
+<RelativeLayout
+    android:paddingTop="40dp"
+    android:layout_gravity="center_vertical"
+    android:layout_centerHorizontal="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="50dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginLeft="70dp"
+        android:background="@drawable/letter_card"
+        android:alpha="0.2">
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="40dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:background="@drawable/letter_card"
+        android:alpha="0.6">
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp"
+        android:background="@drawable/letter_card">
+        <ImageView
+            android:layout_width="50dp"
+            android:scaleType="fitXY"
+            android:layout_height="40dp"
+            android:src="@mipmap/yinhao"/>
+        <TextView
+            android:id="@+id/read"
+            android:layout_marginTop="60dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:lineSpacingExtra="5dp"
+            android:textSize="25dp"
+            android:text="夏天的飞鸟,飞到我的窗前唱歌,又飞去了. \n秋天的黄叶,它们没有什么可唱,只叹息一声,飞落在那里."
+            android:textColor="#ffffff"
+            android:padding="10dp"/>
+    </RelativeLayout>
+</RelativeLayout>
+</LinearLayout>
